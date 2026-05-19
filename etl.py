@@ -11,4 +11,3 @@ df["Salary_after_tax"]= df["Salary"] * 0.9
 df.to_csv("output.csv", index=False)
 
 print("ETL process completed")
-
